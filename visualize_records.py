@@ -55,7 +55,7 @@ def main():
             arrowprops=dict(arrowstyle='->', color='#E2011C', lw=0.7, shrinkA=10, shrinkB=10))
 
     # 6. Signature in Top-Left
-    plt.text(0.02, 0.98, 'Signature: Gemini Code Assist', transform=ax.transAxes,
+    plt.text(0.02, 0.98, 'Hot Dog Drawing by Hezhiyuan', transform=ax.transAxes,
              fontsize=12, verticalalignment='top', style='italic',
              bbox=dict(facecolor='white', alpha=0.7, edgecolor='gray', boxstyle='round,pad=0.5'))
 
